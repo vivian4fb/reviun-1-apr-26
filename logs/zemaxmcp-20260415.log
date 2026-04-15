@@ -1,0 +1,36 @@
+[21:26:17 INF] Starting ZemaxMCP Server
+[21:26:17 INF] ZEMAX Command Log: C:\Users\vivia\OpticStudioMCPServer\src\ZemaxMCP.Server\bin\Debug\net48\logs\zemax-commands-2026-04-15_21-26-17.log
+[21:26:17 INF] MCP Server configured, starting...
+[21:26:17 DBG] Hosting starting
+[21:26:17 INF] Server (stream) (zemax-mcp) transport reading messages.
+[21:26:17 DBG] Server (stream) (zemax-mcp) transport received message with ID '0'.
+[21:26:18 DBG] Server (zemax-mcp 1.0.0) read JsonRpcRequest message from channel.
+[21:26:18 INF] Server (zemax-mcp 1.0.0) method 'initialize' request handler called.
+[21:26:18 INF] Application started. Press Ctrl+C to shut down.
+[21:26:18 INF] Hosting environment: Production
+[21:26:18 INF] Content root path: C:\Users\vivia\OpticStudioMCPServer\src\ZemaxMCP.Server\bin\Debug\net48\
+[21:26:18 DBG] Hosting started
+[21:26:18 INF] Server (zemax-mcp 1.0.0), Client (claude-code 2.1.109) method 'initialize' request handler completed.
+[21:26:18 DBG] Server (zemax-mcp 1.0.0), Client (claude-code 2.1.109) sending message.
+[21:26:18 DBG] Server (stream) (zemax-mcp) transport received message with ID '(no id)'.
+[21:26:18 DBG] Server (stream) (zemax-mcp) transport received message with ID '1'.
+[21:26:18 DBG] Server (stream) (zemax-mcp) transport received message with ID '2'.
+[21:26:18 DBG] Server (stream) (zemax-mcp) transport received message with ID '3'.
+[21:26:18 DBG] Server (stream) (zemax-mcp) transport received message with ID '4'.
+[21:26:18 DBG] Server (zemax-mcp 1.0.0), Client (claude-code 2.1.109) read JsonRpcNotification message from channel.
+[21:26:18 DBG] Server (zemax-mcp 1.0.0), Client (claude-code 2.1.109) read JsonRpcRequest message from channel.
+[21:26:18 DBG] Server (zemax-mcp 1.0.0), Client (claude-code 2.1.109) read JsonRpcRequest message from channel.
+[21:26:18 DBG] Server (zemax-mcp 1.0.0), Client (claude-code 2.1.109) read JsonRpcRequest message from channel.
+[21:26:18 INF] Server (zemax-mcp 1.0.0), Client (claude-code 2.1.109) method 'tools/list' request handler called.
+[21:26:18 INF] Server (zemax-mcp 1.0.0), Client (claude-code 2.1.109) method 'prompts/list' request handler called.
+[21:26:18 INF] Server (zemax-mcp 1.0.0), Client (claude-code 2.1.109) method 'resources/list' request handler called.
+[21:26:18 DBG] Server (zemax-mcp 1.0.0), Client (claude-code 2.1.109) read JsonRpcRequest message from channel.
+[21:26:18 INF] Server (zemax-mcp 1.0.0), Client (claude-code 2.1.109) method 'resources/templates/list' request handler called.
+[21:26:18 INF] Server (zemax-mcp 1.0.0), Client (claude-code 2.1.109) method 'resources/templates/list' request handler completed.
+[21:26:18 DBG] Server (zemax-mcp 1.0.0), Client (claude-code 2.1.109) sending message.
+[21:26:18 INF] Server (zemax-mcp 1.0.0), Client (claude-code 2.1.109) method 'resources/list' request handler completed.
+[21:26:18 DBG] Server (zemax-mcp 1.0.0), Client (claude-code 2.1.109) sending message.
+[21:26:18 INF] Server (zemax-mcp 1.0.0), Client (claude-code 2.1.109) method 'prompts/list' request handler completed.
+[21:26:18 DBG] Server (zemax-mcp 1.0.0), Client (claude-code 2.1.109) sending message.
+[21:26:18 INF] Server (zemax-mcp 1.0.0), Client (claude-code 2.1.109) method 'tools/list' request handler completed.
+[21:26:18 DBG] Server (zemax-mcp 1.0.0), Client (claude-code 2.1.109) sending message.

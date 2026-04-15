@@ -1,0 +1,60 @@
+RewriteEngine On
+ErrorDocument 404 /error.html
+ErrorDocument 400 /error.html
+ErrorDocument 401 /error.html
+ErrorDocument 403 /error.html
+ErrorDocument 500 /error.html
+
+
+
+<IfModule mod_rewrite.c>
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+
+
+RewriteRule ^home/ index.php
+RewriteRule ^home index.php
+
+RewriteRule ^about/ about.php
+RewriteRule ^about about.php
+
+RewriteRule ^contact/ contact.php
+RewriteRule ^contact contact.php
+
+RewriteRule ^service/ service.php
+RewriteRule ^service service.php
+
+RewriteRule ^products/ products.php
+RewriteRule ^products products.php
+
+RewriteRule ^resources/ resources.php
+RewriteRule ^resources resources.php
+
+RewriteRule ^demo/ demo.php
+RewriteRule ^demo demo.php
+
+
+RewriteRule ^cookie-policy/ cookie-policy.php
+RewriteRule ^cookie-policy cookie-policy.php
+
+RewriteRule ^privacy-policy/ privacy-policy.php
+RewriteRule ^privacy-policy privacy-policy.php
+
+RewriteRule ^manufacturing-and-instrumentation/ manufacturing-and-instrumentation.php
+RewriteRule ^manufacturing-and-instrumentation manufacturing-and-instrumentation.php
+
+RewriteRule ^software-and-application-development/ software-and-application-development.php
+RewriteRule ^software-and-application-development software-and-application-development.php
+
+RewriteRule ^technical-due-diligence/ technical-due-diligence.php
+RewriteRule ^technical-due-diligence technical-due-diligence.php
+
+RewriteRule ^inert-atmosphere-systems/ inert-atmosphere-systems.php
+RewriteRule ^inert-atmosphere-systems inert-atmosphere-systems.php
+
+RewriteRule ^embedded-and-control-systems/ embedded-and-control-systems.php
+RewriteRule ^embedded-and-control-systems embedded-and-control-systems.php

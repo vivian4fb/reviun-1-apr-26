@@ -1,0 +1,21 @@
+[21:26:18 INF] Starting FredMCP Server
+[21:26:18 INF] FRED Command Log: C:\Users\vivia\Documents\Cooke_Development\Lens_design\FredMCPServer\src\FredMCP.Server\bin\Debug\net48\logs\fred-commands-20260415.log
+[21:26:18 INF] MCP Server configured, starting...
+[21:26:18 DBG] Hosting starting
+[21:26:19 INF] Server (stream) (fred-mcp) transport reading messages.
+[21:26:19 DBG] Server (stream) (fred-mcp) transport received message with ID '0'.
+[21:26:19 DBG] Server (fred-mcp 1.0.0) read JsonRpcRequest message from channel.
+[21:26:19 INF] Server (fred-mcp 1.0.0) method 'initialize' request handler called.
+[21:26:19 INF] Application started. Press Ctrl+C to shut down.
+[21:26:19 INF] Hosting environment: Production
+[21:26:19 INF] Content root path: C:\Users\vivia\Documents\Cooke_Development\Lens_design\FredMCPServer\src\FredMCP.Server\bin\Debug\net48\
+[21:26:19 DBG] Hosting started
+[21:26:19 INF] Server (fred-mcp 1.0.0), Client (claude-code 2.1.109) method 'initialize' request handler completed.
+[21:26:19 DBG] Server (fred-mcp 1.0.0), Client (claude-code 2.1.109) sending message.
+[21:26:19 DBG] Server (stream) (fred-mcp) transport received message with ID '(no id)'.
+[21:26:19 DBG] Server (stream) (fred-mcp) transport received message with ID '1'.
+[21:26:19 DBG] Server (fred-mcp 1.0.0), Client (claude-code 2.1.109) read JsonRpcNotification message from channel.
+[21:26:19 DBG] Server (fred-mcp 1.0.0), Client (claude-code 2.1.109) read JsonRpcRequest message from channel.
+[21:26:19 INF] Server (fred-mcp 1.0.0), Client (claude-code 2.1.109) method 'tools/list' request handler called.
+[21:26:19 INF] Server (fred-mcp 1.0.0), Client (claude-code 2.1.109) method 'tools/list' request handler completed.
+[21:26:19 DBG] Server (fred-mcp 1.0.0), Client (claude-code 2.1.109) sending message.

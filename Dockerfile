@@ -17,4 +17,7 @@ RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf &&\
     a2ensite reviun_co &&\
     service apache2 restart
 EXPOSE 80
-EXPOSE 443
+
+# Render (and other PaaS) inject a dynamic $PORT — bind Apache to it at startup.
+# Falls back to 80 locally / under docker-compose.
+CMD ["sh", "-c", "sed -i \"s/^Listen 80$/Listen ${PORT:-80}/\" /etc/apache2/ports.conf && sed -i \"s/:80>/:${PORT:-80}>/\" /etc/apache2/sites-available/reviun_co.conf && exec apache2-foreground"]

@@ -1,6 +1,7 @@
 FROM php:7.4-apache
-RUN apt-get update && apt upgrade -y
 RUN docker-php-ext-install mysqli pdo pdo_mysql && docker-php-ext-enable mysqli
+# mod_php requires the prefork MPM; ensure no other MPM stays enabled
+RUN a2dismod mpm_event mpm_worker 2>/dev/null; a2enmod mpm_prefork
 ADD . /var/www/html
 COPY ./reviun_co.conf /etc/apache2/sites-available/reviun_co.conf
 #RUN echo 'SetEnv MYSQL_DB_CONNECTION ${MYSQL_DB_CONNECTION}' >> /etc/apache2/conf-enabled/environment.conf

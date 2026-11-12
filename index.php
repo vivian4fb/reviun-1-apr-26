@@ -111,33 +111,12 @@ $partners = [
 
 <main id="main">
 
-    <section class="rv-hero">
-        <div class="rv-wrap rv-hero__grid">
-            <div>
-                <a class="rv-announce" href="#oxyniti"><span class="rv-badge">New</span> Oxyniti nano-bubble generators <span aria-hidden="true">&rarr;</span></a>
-                <p class="rv-eyebrow">Inert atmosphere &middot; Optomechanics &middot; R&amp;D equipment</p>
-                <h1>Glove boxes and <span class="rv-grad">precision lab equipment</span> for research and industry</h1>
-                <p class="rv-lead">Standard and custom inert-atmosphere glove boxes, gas and solvent purifiers, optomechanics and R&amp;D equipment, with engineering services from prototype to production.</p>
-                <div class="rv-actions">
-                    <a class="rv-btn rv-btn--primary" href="<?= rv_url('inert-atmosphere-systems') ?>">Explore glove boxes</a>
-                    <a class="rv-btn rv-btn--ghost" href="<?= rv_url('products') ?>">Browse products</a>
-                </div>
-                <ul class="rv-ticks" aria-label="Who we supply">
-                    <li>Battery research</li>
-                    <li>Additive manufacturing</li>
-                    <li>Manufacturing industry</li>
-                    <li>Universities</li>
-                </ul>
-            </div>
-            <figure class="rv-hero__media rv-frame rv-float">
-                <img src="<?= rv_asset('assets/rv/img/glovebox-pureline.webp') ?>" alt="Standard glove box with gloveports and antechamber" width="1400" height="748" fetchpriority="high">
-                <figcaption><span>Standard glove box</span><span>Inert atmosphere</span></figcaption>
-            </figure>
-        </div>
-    </section>
-
     <section class="rv-section rv-feature" id="oxyniti">
-        <div class="rv-wrap rv-feature__grid">
+        <div class="rv-wrap">
+        <div class="rv-feature__panel rv-frame">
+            <a class="rv-ribbon" href="<?= rv_url('products') ?>#oxyniti" aria-label="New product: Oxyniti nano-bubble generators. Check it out">New</a>
+            <span class="rv-sweep" aria-hidden="true"></span>
+        <div class="rv-feature__grid">
             <div class="rv-feature__copy">
                 <p class="rv-eyebrow"><span class="rv-badge">New</span>&nbsp; Nano-bubble aeration</p>
                 <h2 class="rv-h2">Oxyniti <span class="rv-grad">nano-bubble generators</span></h2>
@@ -175,6 +154,32 @@ $partners = [
                     <figcaption>Pond outlet, video still</figcaption>
                 </figure>
             </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="rv-hero">
+        <div class="rv-wrap rv-hero__grid">
+            <div>
+                <p class="rv-eyebrow">Inert atmosphere &middot; Optomechanics &middot; R&amp;D equipment</p>
+                <h1>Glove boxes and <span class="rv-grad">precision lab equipment</span> for research and industry</h1>
+                <p class="rv-lead">Standard and custom inert-atmosphere glove boxes, gas and solvent purifiers, optomechanics and R&amp;D equipment, with engineering services from prototype to production.</p>
+                <div class="rv-actions">
+                    <a class="rv-btn rv-btn--primary" href="<?= rv_url('inert-atmosphere-systems') ?>">Explore glove boxes</a>
+                    <a class="rv-btn rv-btn--ghost" href="<?= rv_url('products') ?>">Browse products</a>
+                </div>
+                <ul class="rv-ticks" aria-label="Who we supply">
+                    <li>Battery research</li>
+                    <li>Additive manufacturing</li>
+                    <li>Manufacturing industry</li>
+                    <li>Universities</li>
+                </ul>
+            </div>
+            <figure class="rv-hero__media rv-frame rv-float">
+                <img src="<?= rv_asset('assets/rv/img/glovebox-pureline.webp') ?>" alt="Standard glove box with gloveports and antechamber" width="1400" height="748" fetchpriority="high">
+                <figcaption><span>Standard glove box</span><span>Inert atmosphere</span></figcaption>
+            </figure>
         </div>
     </section>
 

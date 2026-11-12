@@ -75,7 +75,7 @@
 new WOW({ boxClass: 'wow', animateClass: 'animated', offset: 0, mobile: false, live: true }).init();
 </script>
 <?php } ?>
-<script src="/assets/js/rv.js?v=1" defer></script>
+<script src="/assets/js/rv.js?v=2" defer></script>
 
 <?php include_once("cookie-consent.php"); ?>
 

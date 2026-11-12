@@ -66,6 +66,16 @@
 
   if (!isNewPage) return;
 
+  var livePanels = document.querySelectorAll(".rv-feature__panel");
+  if (livePanels.length && "IntersectionObserver" in window) {
+    var liveIo = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) { en.target.classList.toggle("is-live", en.isIntersecting); });
+    });
+    livePanels.forEach(function (el) { liveIo.observe(el); });
+  } else {
+    livePanels.forEach(function (el) { el.classList.add("is-live"); });
+  }
+
   var revealSel = [
     ".rv-section__head", ".rv-card", ".rv-product", ".rv-model", ".rv-feature__copy", ".rv-feature__media",
     ".rv-industries", ".rv-services li", ".rv-logos li", ".rv-split__aside", ".rv-new__intro > *", ".rv-also",

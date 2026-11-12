@@ -27,7 +27,7 @@ $rv_page = !empty($rv_page);
     <link rel="stylesheet" href="assets/css/animate.compat.css" />
     <script src="vendor/jquery/jquery.min.js"></script>
 <?php } ?>
-    <link rel="stylesheet" href="/assets/css/rv.css?v=11">
+    <link rel="stylesheet" href="/assets/css/rv.css?v=14">
 </head>
 
 <body class="<?= $rv_page ? 'rv' : 'rv-legacy' ?>">

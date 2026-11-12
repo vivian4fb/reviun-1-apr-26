@@ -117,7 +117,7 @@ include_once("slider.php");
                                                 Systems</h2>
 
                                         </article>
-                                        <img src="assets/images/inert.jpg" alt="">
+                                        <img src="assets/images/Inert.jpg" alt="">
                                     </a>
                                 </div>
 

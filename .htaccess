@@ -11,6 +11,8 @@ ErrorDocument 500 /error.html
 Options +FollowSymLinks
 RewriteEngine On
 RewriteBase /
+RewriteRule ^includes/ - [F,L]
+RewriteRule (^|/)\.git(/|$) - [F,L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 

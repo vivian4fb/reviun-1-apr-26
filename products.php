@@ -15,7 +15,7 @@ function rv_pdf_meta($pdf)
     <section class="rv-pagehead">
         <div class="rv-wrap">
             <p class="rv-eyebrow">Products</p>
-            <h1>Products</h1>
+            <h1><span class="rv-grad">Products</span></h1>
             <p class="rv-lead">Nano-bubble generators, glove boxes, optomechanics, R&amp;D equipment, and tools and dies. If you need something not listed here, ask us.</p>
             <nav class="rv-chips" aria-label="Product categories">
                 <a href="#oxyniti">Oxyniti <span class="rv-badge">New</span></a>
@@ -32,7 +32,7 @@ function rv_pdf_meta($pdf)
             <div class="rv-new__intro">
                 <div>
                     <p class="rv-eyebrow"><span class="rv-badge">New</span>&nbsp; Nano-bubble aeration</p>
-                    <h2 class="rv-h2"><?= rv_e($rv_oxyniti['title']) ?></h2>
+                    <h2 class="rv-h2">Oxyniti <span class="rv-grad">nano-bubble generators</span></h2>
                     <p class="rv-lead"><?= rv_e($rv_oxyniti['intro']) ?></p>
                     <ul class="rv-ticks" aria-label="Applications">
 <?php foreach ($rv_oxyniti['applications'] as $a) { ?>
@@ -41,7 +41,7 @@ function rv_pdf_meta($pdf)
                     </ul>
                     <p class="rv-new__more"><a class="rv-link rv-link--ext" href="<?= rv_e($rv_oxyniti['source_url']) ?>" target="_blank" rel="noopener">See the full range on oxyniti.com</a></p>
                 </div>
-                <figure class="rv-new__plume">
+                <figure class="rv-new__plume rv-frame rv-float">
                     <img src="<?= rv_asset($rv_oxyniti['plume']) ?>" alt="Oxygen plume from an Oxyniti outlet in a fish pond" width="480" height="854" loading="lazy">
                     <figcaption>Oxyniti outlet in a fish pond, video still</figcaption>
                 </figure>

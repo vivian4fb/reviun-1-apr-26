@@ -116,7 +116,7 @@ $partners = [
             <div>
                 <a class="rv-announce" href="#oxyniti"><span class="rv-badge">New</span> Oxyniti nano-bubble generators <span aria-hidden="true">&rarr;</span></a>
                 <p class="rv-eyebrow">Inert atmosphere &middot; Optomechanics &middot; R&amp;D equipment</p>
-                <h1>Glove boxes and precision lab equipment for research and industry</h1>
+                <h1>Glove boxes and <span class="rv-grad">precision lab equipment</span> for research and industry</h1>
                 <p class="rv-lead">Standard and custom inert-atmosphere glove boxes, gas and solvent purifiers, optomechanics and R&amp;D equipment, with engineering services from prototype to production.</p>
                 <div class="rv-actions">
                     <a class="rv-btn rv-btn--primary" href="<?= rv_url('inert-atmosphere-systems') ?>">Explore glove boxes</a>
@@ -129,7 +129,7 @@ $partners = [
                     <li>Universities</li>
                 </ul>
             </div>
-            <figure class="rv-hero__media">
+            <figure class="rv-hero__media rv-frame rv-float">
                 <img src="<?= rv_asset('assets/rv/img/glovebox-pureline.webp') ?>" alt="Standard glove box with gloveports and antechamber" width="1400" height="748" fetchpriority="high">
                 <figcaption><span>Standard glove box</span><span>Inert atmosphere</span></figcaption>
             </figure>
@@ -140,7 +140,7 @@ $partners = [
         <div class="rv-wrap rv-feature__grid">
             <div class="rv-feature__copy">
                 <p class="rv-eyebrow"><span class="rv-badge">New</span>&nbsp; Nano-bubble aeration</p>
-                <h2 class="rv-h2"><?= rv_e($rv_oxyniti['title']) ?></h2>
+                <h2 class="rv-h2">Oxyniti <span class="rv-grad">nano-bubble generators</span></h2>
                 <p class="rv-lead"><?= rv_e($rv_oxyniti['intro']) ?></p>
                 <div class="rv-feature__models">
 <?php foreach ($rv_oxyniti['models'] as $m) { ?>
@@ -166,11 +166,11 @@ $partners = [
                 </div>
             </div>
             <div class="rv-feature__media">
-                <figure class="rv-feature__product">
+                <figure class="rv-feature__product rv-float">
                     <img src="<?= rv_asset($rv_oxyniti['models'][0]['img']) ?>" alt="Oxyniti nano-bubble generator, illustrative image" width="800" height="534" loading="lazy">
                     <figcaption>Illustrative image</figcaption>
                 </figure>
-                <figure class="rv-feature__plume">
+                <figure class="rv-feature__plume rv-frame rv-float rv-float--slow">
                     <img src="<?= rv_asset($rv_oxyniti['plume']) ?>" alt="Oxygen plume from an Oxyniti outlet in a fish pond" width="480" height="854" loading="lazy">
                     <figcaption>Pond outlet, video still</figcaption>
                 </figure>
@@ -183,7 +183,7 @@ $partners = [
             <div class="rv-section__head">
                 <div>
                     <p class="rv-eyebrow">Products</p>
-                    <h2 class="rv-h2">What we supply</h2>
+                    <h2 class="rv-h2">What we <span class="rv-grad">supply</span></h2>
                 </div>
                 <a class="rv-link" href="<?= rv_url('products') ?>">All products</a>
             </div>
@@ -209,7 +209,7 @@ $partners = [
             <div class="rv-section__head">
                 <div>
                     <p class="rv-eyebrow">Reviun optomechanics</p>
-                    <h2 class="rv-h2">Mounts and stages for optical set-ups</h2>
+                    <h2 class="rv-h2">Mounts and stages for <span class="rv-grad">optical set-ups</span></h2>
                     <p class="rv-lead">Each part has a brochure with dimensions and specifications.</p>
                 </div>
                 <a class="rv-link" href="<?= rv_url('products') ?>#optomechanics">All optomechanics</a>
@@ -239,7 +239,7 @@ $partners = [
             <div class="rv-section__head">
                 <div>
                     <p class="rv-eyebrow">Glove box applications</p>
-                    <h2 class="rv-h2">Suited to controlled-atmosphere work in</h2>
+                    <h2 class="rv-h2">Suited to <span class="rv-grad">controlled-atmosphere</span> work in</h2>
                 </div>
                 <a class="rv-btn rv-btn--outline-light" href="<?= rv_url('inert-atmosphere-systems') ?>">Glove box range</a>
             </div>
@@ -255,7 +255,7 @@ $partners = [
         <div class="rv-wrap rv-split">
             <div class="rv-split__aside">
                 <p class="rv-eyebrow">Services</p>
-                <h2 class="rv-h2">Engineering, from first drawing to production</h2>
+                <h2 class="rv-h2">Engineering, from first drawing to <span class="rv-grad">production</span></h2>
                 <p class="rv-lead">Alongside our equipment we take on engineering work across hardware, software and manufacturing.</p>
                 <a class="rv-btn rv-btn--primary" href="<?= rv_url('contact') ?>">Discuss a project</a>
             </div>
@@ -281,7 +281,7 @@ $partners = [
             <div class="rv-section__head">
                 <div>
                     <p class="rv-eyebrow">Partners</p>
-                    <h2 class="rv-h2">Who we work with</h2>
+                    <h2 class="rv-h2">Who we <span class="rv-grad">work with</span></h2>
                 </div>
             </div>
             <ul class="rv-logos">

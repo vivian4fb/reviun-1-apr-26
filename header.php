@@ -9,6 +9,8 @@ $rv_page = !empty($rv_page);
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Reviun Ltd">
+    <meta name="theme-color" content="#070818">
+    <script>document.documentElement.classList.add('js');</script>
     <link rel="icon" type="image/png" href="/favicon.png">
     <?php include_once("seo.php"); ?>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,10 +27,22 @@ $rv_page = !empty($rv_page);
     <link rel="stylesheet" href="assets/css/animate.compat.css" />
     <script src="vendor/jquery/jquery.min.js"></script>
 <?php } ?>
-    <link rel="stylesheet" href="/assets/css/rv.css?v=6">
+    <link rel="stylesheet" href="/assets/css/rv.css?v=11">
 </head>
 
 <body class="<?= $rv_page ? 'rv' : 'rv-legacy' ?>">
+
+    <div class="rv-bg" aria-hidden="true">
+        <div class="rv-bg__depth">
+            <span class="rv-bg__orb rv-bg__orb--a"></span>
+            <span class="rv-bg__orb rv-bg__orb--b"></span>
+            <span class="rv-bg__orb rv-bg__orb--c"></span>
+            <span class="rv-bg__beam rv-bg__beam--a"></span>
+            <span class="rv-bg__beam rv-bg__beam--b"></span>
+            <div class="rv-bg__grid"></div>
+        </div>
+        <div class="rv-bg__scrim"></div>
+    </div>
 
     <div class="rv-topbar">
         <div class="rv-wrap rv-topbar__in">
@@ -43,7 +57,7 @@ $rv_page = !empty($rv_page);
     <header class="rv-header">
         <div class="rv-wrap rv-header__in">
             <a class="rv-logo" href="<?= rv_url('home') ?>" aria-label="Reviun home">
-                <img src="/assets/rv/img/logo-colour.png" alt="Reviun" width="150" height="34">
+                <img src="/reviun-logo.png" alt="Reviun" width="150" height="34">
             </a>
             <button class="rv-burger" type="button" aria-controls="rv-nav" aria-expanded="false" aria-label="Menu"><span></span></button>
             <nav class="rv-nav" id="rv-nav" aria-label="Main">
